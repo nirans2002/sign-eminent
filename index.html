@@ -15,12 +15,12 @@
 </head>
 
 <body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="54">
-    
+
     <!-- navbar -->
     <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-dark" id="mainNav">
-        <div class="container"><a class="navbar-brand" href="#page-top">Sign<br> Eminent</a><button data-bs-toggle="collapse"
-                data-bs-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right" type="button"
-                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i
+        <div class="container"><a class="navbar-brand" href="#page-top">Sign<br> Eminent</a><button
+                data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right"
+                type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i
                     class="fa fa-bars"></i></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto text-uppercase">
@@ -42,7 +42,8 @@
             <div class="intro-text">
                 <div class="intro-lead-in"><span class="font-monospace text-black-50">Welcome To The Future!</span>
                 </div>
-                <div class="intro-heading text-uppercase"><span class="font-monospace text-success">&nbsp;<span class="text-white">Where the energy is</span> green<br></span></div><a
+                <div class="intro-heading text-uppercase"><span class="font-monospace text-success">&nbsp;<span
+                            class="text-white">Where the energy is</span> green<br></span></div><a
                     class="btn btn-primary link-primary bg-dark border-dark btn-xl text-uppercase" role="button"
                     href="#services">Tell me more</a>
             </div>
@@ -143,7 +144,8 @@
                         data-bs-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
-                        </div><img class="img-fluid" src="https://5.imimg.com/data5/GO/PQ/AO/SELLER-83415462/36-volt-12-5-ah-lithium-ion-electric-vehicle-battery-pack-500x500.jpg">
+                        </div><img class="img-fluid"
+                            src="https://5.imimg.com/data5/GO/PQ/AO/SELLER-83415462/36-volt-12-5-ah-lithium-ion-electric-vehicle-battery-pack-500x500.jpg">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Battery packs</h4>
@@ -319,21 +321,41 @@
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <form id="contactForm" name="contactForm" novalidate="novalidate">
+                    <form id="contactForm" name="contactForm" novalidate="novalidate"
+                        action="https://api.web3forms.com/submit" method="POST">
+                        <!-- access key -->
+                        <input type="hidden" name="access_key" value="e7a25ae6-6d8a-4b58-b65a-af85d41eeb12" />
+                        <!-- from name  -->
+                        <input type="hidden" name="from_name" value="Contact Us Form">
+                        <!-- subject  -->
+                        <input type="hidden" name="subject" value="Form Response Sign Eminent Website" />
+                        <!-- bot ? -->
+                        <input type="checkbox" name="botcheck" id="" style="display: none;" />
+                        <!-- redirect -->
+                        <input type="hidden" name="redirect" value="https://www.signeminent.com/" />
                         <div class="row">
                             <div class="col-md-6">
-                                <div class="form-group mb-3"><input class="form-control" type="text" id="name"
-                                        placeholder="Your Name *" required=""><small
-                                        class="form-text text-danger flex-grow-1 help-block lead"></small></div>
-                                <div class="form-group mb-3"><input class="form-control" type="email" id="email"
-                                        placeholder="Your Email *" required=""><small
-                                        class="form-text text-danger help-block lead"></small></div>
+                                <div class="form-group mb-3">
+                                    <input class="form-control" type="text" id="name" name="name" 
+                                        placeholder="Your Name *" required="">
+                                        <small
+                                        class="form-text text-danger flex-grow-1 help-block lead"></small>
+                                    </div>
+                                <div class="form-group mb-3">
+                                    <input class="form-control" type="email" id="email"
+                                    name="email"
+                                        placeholder="Your Email *" required="">
+                                        <small
+                                        class="form-text text-danger help-block lead">
+                                    </small></div>
                                 <div class="form-group mb-3"><input class="form-control" type="tel"
-                                        placeholder="Your Phone *" required=""><small
+                                        placeholder="Your Phone *" required="" 
+                                        name="phone" id="phone"><small
                                         class="form-text text-danger help-block lead"></small></div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group mb-3"><textarea class="form-control" id="message"
+                                    name="message"
                                         placeholder="Your Message *" required=""></textarea><small
                                         class="form-text text-danger help-block lead"></small></div>
                             </div>
@@ -379,12 +401,14 @@
                         <div class="col-lg-8 mx-auto">
                             <div class="modal-body">
                                 <h2 class="text-uppercase">SE MOZ</h2>
-                                <p class="text-muted item-intro">Customized E-Bike with 60 km range under&nbsp;₹&nbsp;45000&nbsp;</p><img
-                                    class="img-fluid d-block mx-auto" src="assets/img/lgpro2.png">
+                                <p class="text-muted item-intro">Customized E-Bike with 60 km range
+                                    under&nbsp;₹&nbsp;45000&nbsp;</p><img class="img-fluid d-block mx-auto"
+                                    src="assets/img/lgpro2.png">
                                 <p>
-                                    SE MOZ is one of the first E-Bike in India which facilites infotainment system onboard.
+                                    SE MOZ is one of the first E-Bike in India which facilites infotainment system
+                                    onboard.
                                     <br>
-                                    It also has  a longer mileage and a better performance compared to it's competitors.
+                                    It also has a longer mileage and a better performance compared to it's competitors.
                                 </p>
                                 <!-- <ul class="list-unstyled">
                                     <li>Date: January 2017</li>
@@ -411,12 +435,14 @@
                             <div class="modal-body">
                                 <h2 class="text-uppercase">SE HYB</h2>
                                 <p class="text-muted item-intro">Converted 50+ IC engine bikes.</p><img
-                                    class="img-fluid d-block mx-auto" src="https://cloudfront-us-east-1.images.arcpublishing.com/octane/EI4ZOFPUDRHNXJRWJTT5UCDNP4.jpg">
-                                
+                                    class="img-fluid d-block mx-auto"
+                                    src="https://cloudfront-us-east-1.images.arcpublishing.com/octane/EI4ZOFPUDRHNXJRWJTT5UCDNP4.jpg">
+
                                 <p>
-                                    We convert existing IC engine bikes and four wheelers into hybrid electric vehicles which has higher fuel efficiency and increased mileage.
-                                    <br> 
-                                    We use Indigenously developed BLDC hub motor and controller for the electric drive. 
+                                    We convert existing IC engine bikes and four wheelers into hybrid electric vehicles
+                                    which has higher fuel efficiency and increased mileage.
+                                    <br>
+                                    We use Indigenously developed BLDC hub motor and controller for the electric drive.
                                 </p>
                                 <!-- <ul class="list-unstyled">
                                     <li>Date: January 2017</li>
@@ -443,10 +469,14 @@
                             <div class="modal-body">
                                 <h2 class="text-uppercase">Battery Packs</h2>
                                 <p class="text-muted item-intro">Customized Li-ion battery pack</p><img
-                                    class="img-fluid d-block mx-auto" src="https://5.imimg.com/data5/GO/PQ/AO/SELLER-83415462/36-volt-12-5-ah-lithium-ion-electric-vehicle-battery-pack-500x500.jpg">
-                                <p>We provide customized Li-ion battery pack for solar applications as well as electric vehicle applications.
-                                    <br> Both Li-ion and LiFePO4 cells are directly imported from china and tested from our laboratries.
-                                <br> We also provide extended warranties for selected range of specifications.</p>
+                                    class="img-fluid d-block mx-auto"
+                                    src="https://5.imimg.com/data5/GO/PQ/AO/SELLER-83415462/36-volt-12-5-ah-lithium-ion-electric-vehicle-battery-pack-500x500.jpg">
+                                <p>We provide customized Li-ion battery pack for solar applications as well as electric
+                                    vehicle applications.
+                                    <br> Both Li-ion and LiFePO4 cells are directly imported from china and tested from
+                                    our laboratries.
+                                    <br> We also provide extended warranties for selected range of specifications.
+                                </p>
                                 </p>
                                 <!-- <ul class="list-unstyled">
                                     <li>Date: January 2017</li>
@@ -472,7 +502,8 @@
                             <div class="modal-body">
                                 <h2 class="text-uppercase">Project Name</h2>
                                 <p class="text-muted item-intro">Lorem ipsum dolor sit amet consectetur.</p><img
-                                    class="img-fluid d-block mx-auto" src="https://5.imimg.com/data5/GO/PQ/AO/SELLER-83415462/36-volt-12-5-ah-lithium-ion-electric-vehicle-battery-pack-500x500.jpg">
+                                    class="img-fluid d-block mx-auto"
+                                    src="https://5.imimg.com/data5/GO/PQ/AO/SELLER-83415462/36-volt-12-5-ah-lithium-ion-electric-vehicle-battery-pack-500x500.jpg">
                                 <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
                                     adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
                                     repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
